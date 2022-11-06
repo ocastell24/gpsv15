@@ -3,7 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react-v1'
 
+//para el geo
+import { Amplify } from 'aws-amplify';
+import awsconfig from './aws-exports';
+//para el geo
+
 import { Route } from 'react-router-dom';
+
+Amplify.configure(awsconfig);//para el geo
 
 function App() {
   return (
