@@ -20,18 +20,18 @@
 
       Amplify.configure({
         Auth: {
-          identityPoolId: "us-east-2:7fede8b6-7ebe-4ace-8e79-90b4ac3680ec",
+          identityPoolId: "REPLACE_WITH_POOL_ID",
           region: "us-east-2",
         },
         geo: {
           AmazonLocationService: {
             maps: {
               items: {
-                "mapc0dacf80-dev": {
+                "MyMap-dev": {
                   style: "Default style"
                 },
               },
-              default: "mapc0dacf80-dev",
+              default: "MyMap-dev",
             },
             region: "us-east-2",
           },

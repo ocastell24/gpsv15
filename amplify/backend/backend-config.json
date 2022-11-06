@@ -29,6 +29,22 @@
   },
   "geo": {
     "mapc0dacf80": {
+      "isDefault": false,
+      "providerPlugin": "awscloudformation",
+      "service": "Map",
+      "mapStyle": "VectorEsriStreets",
+      "accessType": "AuthorizedAndGuestUsers",
+      "dependsOn": [
+        {
+          "category": "auth",
+          "resourceName": "gpsv15dd846401",
+          "attributes": [
+            "UserPoolId"
+          ]
+        }
+      ]
+    },
+    "MyMap": {
       "isDefault": true,
       "providerPlugin": "awscloudformation",
       "service": "Map",
