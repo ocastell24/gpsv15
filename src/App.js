@@ -11,8 +11,7 @@ function App() {
       <header>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>We now have Auth!</h1>
-        <Route path="index" render={() => {window.location.href="index.html"}} />
-
+        <a href="index.html">Redirect to Html page</a>
       </header>
       <AmplifySignOut />
     </div>
